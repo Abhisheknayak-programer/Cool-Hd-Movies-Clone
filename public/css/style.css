@@ -1,0 +1,580 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* First Layer Styling Here */
+.FirstLayer{
+    font-weight: 600;
+}
+
+.FirstLayerFirstRow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.GreyLayer{
+    background-color: #eeecec;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 600;
+}
+
+.GreyLayer span a{
+    color: red;
+}
+
+
+/* Second Layer Styling Here */
+
+.SecondLayer{
+    width: 100%;
+    overflow: hidden;
+}
+
+.SecondLayer .Grey{
+    background-color: #666;
+    padding: 5px;
+    color: white;
+    font-weight: 600;
+}
+
+.SecondLayer .Pink{
+    color: rgb(255, 51, 243);
+    font-weight: 600;
+    padding: 5px;
+}
+
+.SecondLayer .CategoryArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.SecondLayer .CategoryArea a{
+    text-decoration: none;
+    color: red;
+    font-weight: 600;
+}
+
+
+.SecondLayer .lightBlue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background: #cfdfe7;
+    font-weight: 600;
+}
+
+.SecondLayer .lightBlue span{
+    width: 9%;
+    font-weight: 600;
+}
+
+.SecondLayer .lightBlue input{
+    width: 10%;
+}
+
+.SecondLayer .lightBlue button{
+    width: 5%;
+    margin: 0px 5px;
+    outline: none;
+}
+
+
+.SecondLayer .MyGrey{
+    text-align: center;
+}
+
+
+/* Third Layer Styling Here */
+
+.ThirdLayer{
+    font-weight: 600;
+}
+
+.ThirdLayer .FilmBox{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px #ecd5d2 solid;
+}
+
+.ThirdLayer .FilmBox i{
+    color: red;
+    padding: 0px 5px;
+    display: inline-block;
+}
+
+
+.ThirdLayer .FilmBox a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.5s ease;
+}
+
+
+.ThirdLayer .FilmBox span{
+    color: green;
+}
+
+
+.ThirdLayer .FilmBox a:hover{
+    color: blue;
+    font-weight: bolder;
+}
+
+
+
+.ThirdLayer .FilmBox a:hover span{
+    color: red;
+}
+    
+
+
+
+
+.ThirdLayer nav{
+    margin-top:18px;
+}
+
+
+
+/* Fourth Layer Styling Here */
+
+.FourthLayer .FourthHeader{
+    text-align: center;
+    background-color: #666;
+    padding: 5px;
+    color: white;
+    font-weight: 600;
+}
+
+
+.FourthLayer .white{
+    padding: 3px;
+}
+
+.FourthLayer .white a{
+    text-decoration: none;
+    color: red;
+    font-weight: 600;
+}
+
+.FourthLayer .lightred{
+    background-color: #eeecec;
+    padding: 3px;
+    border-bottom: 1px #ecd5d2 solid;
+}
+
+.FourthLayer .lightred a{
+    text-decoration: none;
+    color: red;
+    font-weight: 600;
+}
+
+
+
+
+
+
+/* Fifth Layer Styling Here */
+
+.FifthLayer{
+    transition: all 0.5s ease;
+    border-top: 1px #ecd5d2 solid;
+}
+
+.TagsHolder p{
+    font-weight: 600;
+    text-align: justify;
+    padding: 5px 20px;   
+}
+
+.FifthLayer:hover{
+    background-color: lightgreen;
+}
+
+
+
+/* Footer Styling Starts */
+
+footer{
+    text-align: center;
+    background-color: rgb(12, 11, 11);
+    color: white;
+    font-weight: 600;
+    height: 50px;
+    line-height: 50px;
+}
+
+
+
+
+/* ************************************  Category *********************************************** */
+
+/* Card Design Css */
+
+.CategoryCard{
+    border-bottom: 1px #ecd5d2 solid;
+    padding-bottom: 7px;
+}
+
+
+.CardContent{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.CardContent a{
+    text-decoration: none;
+    color: red;
+    font-weight: 800;
+    transition: all 0.5s ease;
+}
+
+
+/* End View Of Category Page */
+
+.Pagebox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f4f0e9;
+}
+
+.Pagebox nav{
+    margin: 20px 0px 0px 10px;
+}
+
+.Pagebox nav a{
+    color: red;
+    font-weight: bolder;
+}
+
+
+
+.LastCategoryBox{
+    border-top: 1px #ecd5d2 solid;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+.LastCategoryBox .Boxx1 a,.LastCategoryBox .Boxx2 a{
+    text-decoration: none;
+    color: red;
+    font-weight: 600;
+    transition: all 0.5s ease-in;
+}
+
+
+.LastCategoryBox .Boxx1,.LastCategoryBox .Boxx2{
+    padding: 0px 20px;
+}
+
+
+.LastCategoryBox .Boxx1 a:hover,.LastCategoryBox .Boxx2 a:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+/* Movie Page Edits Starts */
+.MovieH1{
+    background-color: rgb(87, 86, 86);
+    color: white;
+    font-weight: 600;
+    text-align: center;    
+}
+
+
+.Movie_Img .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Movie_Img .row .col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Movie_Img .row .col img{
+    height: 200px;
+    width: 300px;
+}
+
+
+.MovieDetails h3{
+    background-color: rgb(87, 86, 86);
+    color: white;
+    font-weight: 600;
+    text-align: center;    
+}
+
+
+.MovieInfo span{
+    font-weight: 600;
+    display: block;
+}
+
+.MovieInfo span:nth-child(even){
+    color: green;
+    background-color: #eeecec;
+    padding:5px 20px;
+    border-bottom: 1px #ecd5d2 solid;
+}
+
+
+
+.MovieInfo span:nth-child(odd){
+    color: blue;
+    padding:5px 20px;
+    border-bottom: 1px #ecd5d2 solid;
+}
+
+.MovieDetails span:last-child{
+    overflow: hidden;
+    color: blueviolet;
+}
+
+
+.DownloadBlock{
+    background-color: rgb(87, 86, 86);
+    color: white;
+    font-weight: 600;
+    text-align: center; 
+}
+
+.DownLoadArea{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.DownLoadArea span{
+    padding: 5px;
+    color: blue;
+}
+
+#link1{
+    background-color: rgb(0, 255, 213);
+    text-decoration: none;
+    padding: 5px;
+    margin: 2px;
+    color: black;
+}
+
+#link2{
+    background-color: rgb(208, 255, 0);
+    text-decoration: none;
+    padding: 5px;
+    margin: 2px;
+    color: black;
+}
+
+#link3{
+    background-color: rgb(115, 255, 0);
+    text-decoration: none;
+    padding: 5px;
+    margin: 2px;
+    color: black;
+}
+
+
+.MoviesThumbnails{
+    padding: 20px;
+}
+
+
+.MoviesThumbnails .row img{
+    height: 200px;
+    width: 300px;
+}
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+
+
+@media only screen and (max-width:1200px){
+    
+.SecondLayer .lightBlue span{
+    width: 15%;
+}
+
+.SecondLayer .lightBlue input{
+    width: 10%;
+}
+
+.SecondLayer .lightBlue button{
+    width: 7%;
+}
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:998px){
+
+    .SecondLayer .lightBlue button{
+        width: 10%;
+    }
+    
+    .SecondLayer .lightBlue span{
+        width: 20%;
+    }
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width:778px){
+
+    .SecondLayer .lightBlue button{
+        width: 13%;
+    }
+    
+    .SecondLayer .lightBlue span{
+        width: 25%;
+    }
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width:576px){
+    html{
+        font-size: 90%;
+    }
+    .FirstLayerFirstRow{
+        text-align: center;
+    }
+
+    .SecondLayer .lightBlue input{
+        width: 25%;
+    }
+
+    .CategoryCard{
+        overflow: hidden;
+    }
+
+    .CardContent{
+       position: relative;
+       left: -30%;
+    }
+
+}
+
+
+
+
+
+@media only screen and (max-width:480px){
+
+    .SecondLayer .lightBlue button{
+        width: 20%;
+    }
+    
+    .SecondLayer .lightBlue span{
+        width: 40%;
+    }
+
+    .CardContent{
+        position: relative;
+        left: -25%;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width:360px){
+    .CardContent{
+        position: relative;
+        left: -20%;
+     }
+
+    .Pagebox{
+        font-size: 10px;
+    }
+
+}   
+
+
+
+@media only screen and (max-width:320px){
+    .CardContent{
+        position: relative;
+        left: -10%;
+     }
+}   
+
+
+
+
+@media only screen and (max-width:290px){
+   .Pagebox .name{
+       display: none;
+   }
+}   
+
+
+
+@media only screen and (max-width:250px){
+    html{
+        font-size: 70%;
+    }
+    .SecondLayer .lightBlue button{
+        width: 30%;
+    }
+    .SecondLayer .lightBlue input{
+        width: 20%;
+    }
+    .CardContent{
+        position: relative;
+        left: 0;
+     }
+}   
