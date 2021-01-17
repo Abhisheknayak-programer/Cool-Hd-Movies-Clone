@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,18 +14,24 @@
 
 </head>
 <style>
-    .ADMINHEAD h1{
-        text-shadow: 2px 2px 5px rgba(0,0,0,1);
+    .ADMINHEAD h1 {
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
         font-size: 50px;
     }
 
 
-    {{!-- Form Css --}}
-    .FormHolder{
+        {
+            {
+             !-- Form Css --
+        }
+    }
+
+    .FormHolder {
         width: 90%;
         overflow: hidden;
     }
-    .FormHolder input{
+
+    .FormHolder input {
         outline: none !important;
     }
 
@@ -32,22 +39,23 @@
 
 
 
-    @media only screen and (max-width:576px){
-        .ADMINHEAD h1{
+    @media only screen and (max-width:576px) {
+        .ADMINHEAD h1 {
             font-size: 30px;
-            text-shadow: 1px 1px 3px rgba(0,0,0,1);
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
         }
     }
 </style>
+
 <body>
 
     <!-- First Layer -->
     <section class="FirstLayer">
         <div class="container">
             <div class="row FirstLayerFirstRow">
-               <div class="col col-lg-3 col-sm-6 col-md-6">
-                <img src="../../images/logo.png" class="img-fluid" alt="Logo_Img">
-               </div>
+                <div class="col col-lg-3 col-sm-6 col-md-6">
+                    <img src="../../images/logo.png" class="img-fluid" alt="Logo_Img">
+                </div>
             </div>
 
             <div class="row ADMINHEAD">
@@ -59,7 +67,7 @@
 
 
     <hr>
-    
+
     <div class="container">
         <div class="row">
             <div class="col col-sm-12 col-md-12 col-lg-12 FormHolder">
@@ -68,70 +76,80 @@
 
                     <label for="Movie">Movie Name : </label><br>
                     <input type="text" name="moviename" placeholder="Enter The Movie Name"><br>
-    <hr>
-                    
+                    <hr>
+
                     <label for="img">Upload Main Image : </label><br>
                     <input type="file" name="movieimg" placeholder="Enter The Image"><br>
-    <hr>
-                    
+                    <hr>
+
                     <label for="Category">Category : </label><br>
                     <input type="text" name="category" placeholder="Enter The Category"><br>
-    <hr>
-                    
+                    <hr>
+
                     <label for="StarCast">StarCast : </label><br>
                     <input type="text" name="starcast" placeholder="Enter The StarCast"><br>
-    <hr>
-                    
+                    <hr>
+
                     <label for="Genere">Genere : </label><br>
                     <input type="text" name="genere" placeholder="Enter The Genere"><br>
-    <hr>
-                    
+                    <hr>
+
                     <label for="Release">Release Date : </label><br>
                     <input type="date" name="releasedate" placeholder="Enter Release Date"><br>
-                    
-    <hr>
-                    
+
+                    <hr>
+
                     <label for="Duration">Duration : </label><br>
                     <input type="time" name="duration" placeholder="Enter The Duration"><br>
-    <hr>
+                    <hr>
 
-                       
+
                     <label for="Quality">Quality : </label><br>
                     <input type="text" name="quality" placeholder="Enter The Quality"><br>
-                    
 
-    <hr>
-                      
+
+                    <hr>
+
                     <label for="Desc">Desc : </label><br>
                     <input type="text" name="desc" placeholder="Enter The Desc"><br>
-    <hr>
-                    
+                    <hr>
+
+                    <label for="images">Upload Thumbnail 1 Images : </label><br>
+                    <input type="file" name="thumbnails1" placeholder="Enter The 4 Images"><br>
+                    <hr>
+                    <label for="images">Upload Thumbnail 2 Images : </label><br>
+                    <input type="file" name="thumbnails2" placeholder="Enter The 4 Images"><br>
+
+                    <hr>
+
+                    <label for="images">Upload Thumbnail 3 Images : </label><br>
+                    <input type="file" name="thumbnails3" placeholder="Enter The 4 Images"><br>
+                    <hr>
                     <label for="images">Upload Thumbnail 4 Images : </label><br>
-                    <input type="file" name="thumbnails" placeholder="Enter The 4 Images"><br>
-    <hr>
-                       
+                    <input type="file" name="thumbnails4" placeholder="Enter The 4 Images"><br>
+                    <hr>
                     <label for="LatestMovies">Download Link 1 Latest Movies : </label><br>
                     <input type="text" name="linkOne" placeholder="Enter The Link 👍"><br>
-    <hr>
+                    <hr>
 
-                         
+
                     <label for="halfHd">Download Link 2 (480p) </label><br>
                     <input type="text" name="linkTwo" placeholder="Enter The Link 👍👍"><br>
-    <hr>
-                         
+                    <hr>
+
                     <label for="FullHd">Download Link 3 (7820p)</label><br>
                     <input type="text" name="linkThree" placeholder="Enter The Link 👍👍👍"><br>
-    <hr>
-                  <div class="button">
-                                <button type="submit">Add Movie</button>
-                </div>
+                    <hr>
+                    <div class="button">
+                        <button type="submit">Add Movie</button>
+                    </div>
 
-    <hr>
+                    <hr>
 
                 </form>
 
 
-<br>
+                <br>
             </div>
         </div>
     </div>
@@ -141,20 +159,20 @@
 
 
 
-    
+
     {{!-- <div class="LastCategoryBox">
 
         <div class="Boxx1">
-          <a href="../../index.html">Home</a>
-          <i class="fa fa-home" aria-hidden="true"></i>   
-       </div>
+            <a href="../../index.html">Home</a>
+            <i class="fa fa-home" aria-hidden="true"></i>
+        </div>
 
-       <div class="Boxx2">
-          <span aria-hidden="true">&laquo;</span>
-          </a><a href="../../categories/action.html">Go Back</a>
-       </div>
+        <div class="Boxx2">
+            <span aria-hidden="true">&laquo;</span>
+            </a><a href="../../categories/action.html">Go Back</a>
+        </div>
 
-      </div> --}}
+    </div> --}}
 
 
 
@@ -177,7 +195,8 @@
 
 
 
-<!--Bootstrap js Link -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>    
+    <!--Bootstrap js Link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

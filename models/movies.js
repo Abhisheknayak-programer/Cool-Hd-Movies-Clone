@@ -37,7 +37,10 @@ const MoviesSchema = new mongoose.Schema({
     Desc : {
         type:String,
     },
-    thumbnails :String,
+    thumbnails1 :String,
+    thumbnails2 :String,
+    thumbnails3 :String,
+    thumbnails4 :String,
     linkOne:{
         type:String,
         required:true,

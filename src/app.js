@@ -35,6 +35,11 @@ app.get("/adventure",(req,res)=>{
 })
 
 
+app.get("/mai_hu_na",(req,res)=>{
+    res.render("mai_hu_na");
+})
+
+
 app.get("/movie",(req,res)=>{
     res.render("movie");
 })
@@ -58,7 +63,10 @@ app.post("/MyAdmin", async(req,res)=>{
             duration : req.body.duration,
             Quality : req.body.Quality,
             Desc : req.body.Desc,
-            thumbnails : req.body.thumbnails,
+            thumbnails1 : req.body.thumbnails1,
+            thumbnails2 : req.body.thumbnails2,
+            thumbnails3 : req.body.thumbnails3,
+            thumbnails4 : req.body.thumbnails4,
             linkOne : req.body.linkOne,
             linkTwo : req.body.linkTwo,
             linkThree : req.body.linkThree,
